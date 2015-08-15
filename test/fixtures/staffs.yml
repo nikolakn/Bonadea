@@ -1,0 +1,12 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: Nikola
+  type: recepcija
+  premission: 1
+  percent: 0
+  signature: Nikola Knezevic	
+  phone: 0649142677
+  address: Futog
+
+

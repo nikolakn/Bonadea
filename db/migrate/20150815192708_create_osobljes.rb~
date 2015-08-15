@@ -1,0 +1,15 @@
+class CreateOsobljes < ActiveRecord::Migration
+  def change
+    create_table :osobljes do |t|
+      t.string :name
+      t.string :type
+      t.integer :dozvole 
+      t.integer :procenat
+      t.string :potpis
+      t.string :telefon
+      t.string :adresa
+
+      t.timestamps null: false
+    end
+  end
+end
