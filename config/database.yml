@@ -1,0 +1,15 @@
+development:
+  adapter: mysql2
+  username: root
+  password: ""
+  host: localhost
+  database: ruby
+ 
+ 
+test:
+  adapter: mysql2
+  username: root
+  password: ""
+  host: localhost
+  database: ruby
+
