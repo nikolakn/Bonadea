@@ -8,5 +8,13 @@
 
 s = Staff.new(name: "NikolaKn", type: "Recepcija", premission: 1, password:"testsifra", password_confirmation: "testsifra")
 
+
 s.save
 
+s1 = Staff.new(name: "bata", type: "Ordinacija", premission: 2, password:"bonadea", password_confirmation: "bonadea")
+
+s1.save
+
+s2 = Staff.new(name: "Gabriela", type: "Recepcija", premission: 2, password:"bonadea", password_confirmation: "bonadea")
+
+s2.save
